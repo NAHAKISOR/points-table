@@ -153,10 +153,10 @@ table tbody tr:last-child {
   border: 0;
 }
 table td, table th {
-  text-align: left;
+  text-align: center;
 }
 table td.l, table th.l {
-  text-align: right;
+  text-align: center;
 }
 table td.c, table th.c {
   text-align: center;
@@ -226,7 +226,6 @@ tbody tr:hover {
   width: 160px;
   padding-left: 40px;
   text-align: center;
-  padding-right: 62px;
 }
 
 
@@ -281,11 +280,6 @@ tbody tr:hover {
     content: "Total Points";
   }
 
-  .column4,
-  .column5,
-  .column6 {
-    text-align: center;
-  }
 
   .column4,
   .column5,
