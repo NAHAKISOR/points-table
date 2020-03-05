@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>School Rankings</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+ /* Chrome 10-25, Safari 5.1-6 */
+ background-color: #7474BF;  /* fallback for old browsers */
+ background-color: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+ background-color: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+</style>
+
+
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+
+	<ul>
+	  <li><a href="../../index.html"><h5>Home</h5></a></li>
+	  <li><a href="../../gallery/gallery.html"><h5>Gallery</h5></a></li>
+	  <li><a href="http://tceit.hosting.acm.org/quest2020/"><h5>Register</h5></a></li>
+	  <li style="float:right"><a class="active" href="#"><h5>Points Table</h5></a></li>
+	</ul>
+
+
+
+
+
+	<div class="limiter">
+
+
+		<div class="container-table100">
+			<div class="wrap-table100">
+				<div class="table100">
+					<table>
+					<center>
+						<iframe src="http://free.timeanddate.com/countdown/i760ujnr/n1047/cf100/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fn3/fs400/szw800/szh250/iso2020-03-07T09:00:00" allowTransparency="true" frameborder="0" width="800" height="250"></iframe>
+</center>
+
+						<thead>
+							<tr class="table100-head">
+								<th class="column1">Rank</th>
+								<th class="column2">School Name </th>
+								<th class="column3">Gold</th>
+								<th class="column4">Silver</th>
+								<th class="column5">Bronze</th>
+
+								<th class="column6">Points</th>
+
+							</tr>
+						</thead>
+						<tbody>
+								<!-- <tr>
+									<td class="column1">1</td>
+									<td class="column2">ABC</td>
+									<td class="column3">5</td>
+									<td class="column4">2</td>
+									<td class="column5">1</td>
+									<td class="column6">430</td>
+								</tr> -->
+
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+
+
+
+		<!--===============================================================================================-->
+			<script src="../../timer/vendor/jquery/jquery-3.2.1.min.js"></script>
+		<!--===============================================================================================-->
+			<script src="../../timer/vendor/bootstrap/js/popper.js"></script>
+			<script src="../../timer/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<!--===============================================================================================-->
+			<script src="../../timer/vendor/select2/select2.min.js"></script>
+		<!--===============================================================================================-->
+			<script src="../../timer/vendor/countdowntime/moment.min.js"></script>
+			<script src="../../timer/vendor/countdowntime/moment-timezone.min.js"></script>
+			<script src="../../timer/vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+			<script src="../../timer/vendor/countdowntime/countdowntime.js"></script>
+			<script>
+				$('.cd100').countdown100({
+					/*Set Endtime here*/
+					/*Endtime must be > current time*/
+					endtimeYear: 0,
+					endtimeMonth: 0,
+					endtimeDate: 14,
+					endtimeHours: 9,
+					endtimeMinutes: 0,
+					endtimeSeconds: 0,
+					timeZone: ""
+					// ex:  timeZone: "America/New_York"
+					//go to " http://momentjs.com/timezone/ " to get timezone
+				});
+			</script>
+		<!--===============================================================================================-->
+			<script src="../../timer/vendor/tilt/tilt.jquery.min.js"></script>
+			<script >
+				$('.js-tilt').tilt({
+					scale: 1.1
+				})
+			</script>
+		<!--===============================================================================================-->
+			<script src="../../timer/js/main.js"></script>
+
+
+
+
+</body>
+</html>
