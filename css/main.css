@@ -261,22 +261,22 @@ tbody tr:hover {
     left: 30px;
     top: 0;
   }
-  table tbody tr td:nth-child(1):before {
+  table tbody tr td:nth-child(8):before {
     content: "Rank";
   }
-  table tbody tr td:nth-child(2):before {
+  table tbody tr td:nth-child(1):before {
     content: "School Name";
   }
-  table tbody tr td:nth-child(3):before {
+  table tbody tr td:nth-child(2):before {
     content: "Gold";
   }
-  table tbody tr td:nth-child(4):before {
+  table tbody tr td:nth-child(3):before {
     content: "Silver";
   }
-  table tbody tr td:nth-child(5):before {
+  table tbody tr td:nth-child(4):before {
     content: "Bronze";
   }
-  table tbody tr td:nth-child(6):before {
+  table tbody tr td:nth-child(5):before {
     content: "Total Points";
   }
 
