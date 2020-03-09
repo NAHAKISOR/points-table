@@ -261,9 +261,7 @@ tbody tr:hover {
     left: 30px;
     top: 0;
   }
-  table tbody tr td:nth-child(8):before {
-    content: "Rank";
-  }
+
   table tbody tr td:nth-child(1):before {
     content: "School Name";
   }
